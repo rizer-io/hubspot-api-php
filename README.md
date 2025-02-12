@@ -1,3 +1,8 @@
+# making it working with php8.4 
+phpstorm search and replace with regexp activated
+search: `([(,][\s\n]+)([a-zA-Z]+[\s\n]+\$[^\s,;]+[\s\n]+=\s+null)`
+replace: `$1?$2`
+
 # hubspot-api-php
 
 [![Latest Packagist Version](https://img.shields.io/packagist/v/hubspot/api-client?logo=github&logoColor=white&style=flat-square)](https://packagist.org/packages/hubspot/api-client)
